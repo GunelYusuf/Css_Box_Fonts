@@ -1,0 +1,128 @@
+.main{
+    width: 150px;
+    height: 150px;
+    background-color:violet;
+    border: 2px dashed rebeccapurple;
+}
+
+/* .footer{
+    width: 250px; 
+    min-width: 200px;
+    max-width: 300px; 
+     height: 250px;
+    max-height: 300px; 
+    min-height:400px ;
+    background-color: salmon;
+} */
+
+/* .obj{
+    width: 200px;
+    height: 200px;
+    background-color: sandybrown;
+    padding: 15px;
+    padding: 10px 15px 10px 16px;
+} */
+
+.obj{ width: 200px;
+    height: 200px;
+    background-color:seagreen;
+    margin: 70px;
+}
+.exp{
+    width: 200px;
+    height: 200px;
+    background-color: rosybrown;
+    margin: 50px;
+}
+p{
+    /* display: none; */
+    /* visibility: hidden; */
+    display: block;
+}
+span{
+    /* display: block; */
+    display: inline-block;
+    width: 200px;
+}
+
+.col{
+    width: 350px;
+    height: 350px;
+    border: 2px solid crimson;
+    background-color: hotpink;
+    position: relative;
+    top: 40px;
+    left: 50px;;
+}
+
+/* position relative */
+/* .col2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 40px;
+} */
+.col2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    background-color: darkturquoise;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    
+}
+
+.col3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid yellow;
+    background-color: goldenrod;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    border: 3px solid darkseagreen;
+}
+
+div.a{
+    /* text-align: center;
+    text-align: right;
+    text-align: left; */
+    text-align: justify;
+    color: mediumorchid;
+}
+
+h2{
+    color: seagreen;
+    /* text-decoration: overline;
+    text-decoration: line-through; */
+    text-decoration: underline;
+    text-shadow: 2px 2px cadetblue
+    /* text-decoration: underline overline; */
+}
+p{
+    font-family: myFirstFont ;
+    /* font-family:" Helvetica", Times, serif; */
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(AlwaysRadio.ttf);
+  }
+  .fas.fa-angry{
+      color: crimson;
+   }
+
+
+
+
+
